@@ -18,25 +18,42 @@ const Navbar = () => {
   };
 
   return (
-    <div className="relative">
+    <div className=" ">
       {/* Navbar */}
-      <nav className="flex justify-between items-center p-4 bg-gray-800 text-white">
+      <nav className=" w-2/3 mx-auto  fixed top-0 left-0 right-0 flex justify-between items-center p-4 z-50">
         {/* Left Side: Social Icons */}
-        <div className="flex space-x-4">
-          <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">
-            <FaFacebook className="text-xl hover:text-blue-500" />
+        <div className="flex space-x-4 ">
+          <a  href="https://facebook.com" target="_blank" rel="noopener noreferrer">
+            <FaFacebook className="text-3xl text-white hover:text-blue-500 " />
           </a>
           <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
-            <FaLinkedin className="text-xl hover:text-blue-700" />
+            <FaLinkedin className="text-3xl text-white hover:text-blue-700" />
           </a>
           <a href="https://github.com" target="_blank" rel="noopener noreferrer">
-            <FaGithub className="text-xl hover:text-gray-400" />
+            <FaGithub className="text-3xl text-white hover:text-gray-400" />
           </a>
         </div>
 
         {/* Right Side: Hamburger Menu */}
-        <div className="cursor-pointer" onClick={toggleMenu}>
-          {menuOpen ? <FaTimes className="text-2xl" /> : <FaBars className="text-2xl" />}
+        <div className="relative cursor-pointer " onClick={toggleMenu}>
+          {/* Top Line */}
+          <div
+            className={`w-10 h-[2px] bg-white my-1 transition-all duration-500 ease-in-out transform ${
+              menuOpen ? "rotate-45 absolute top-0 left-1" : "left-0"
+            }`}
+          ></div>
+          {/* Middle Line */}
+          <div
+            className={`w-6 h-[2px] bg-white my-1 transition-all duration-500 ease-in-out ${
+              menuOpen ? "opacity-0" : ""
+            }`}
+          ></div>
+          {/* Bottom Line */}
+          <div
+            className={`w-10 h-[2px] bg-white my-1 transition-all duration-500 ease-in-out transform ${
+              menuOpen ? "rotate-135 absolute bottom-0 left-1" : "left-0"
+            }`}
+          ></div>
         </div>
       </nav>
 
