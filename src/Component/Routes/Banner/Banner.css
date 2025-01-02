@@ -1,54 +1,83 @@
-
+/* Carousel Container */
 .carousel-container {
-    position: relative;
-    width: 100%;
-    margin: 0 auto;
-    height: 720px;
-    overflow: hidden;
+  position: relative;
+  width: 100%;
+  height: 720px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+/* Carousel Slide */
+.carousel-slide {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: opacity 1s ease, transform 6s ease;
+}
+
+.carousel-slide.active {
+  opacity: 1;
+  transform: scale(1.1); /* Zoom in effect */
+}
+
+/* Carousel Image */
+.carousel-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Overlay Background */
+.relative-container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.running-line {
+  position: absolute;
+  bottom: 0; /* Stick to the bottom */
+  left: -100%; /* Start off-screen on the left */
+  width: 100%; /* Full width of the screen */
+  height: 4px; /* Thickness of the line */
+  background-color: white; /* Line color */
+  animation: runLine 5s linear infinite; /* Animation effect */
+}
+
+/* Keyframe for running line animation */
+@keyframes runLine {
+  0% {
+    left: -100%; /* Start off-screen */
   }
-  
-  .carousel-slide {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    opacity: 0;
-    transition: opacity 1s ease, transform 6s ease;
+  100% {
+    left: 100%; /* Move across to the right */
   }
-  
-  .carousel-slide.active {
-    opacity: 1;
-    transform: scale(1.1); /* Zoom in effect */
-  }
-  
-  .carousel-image {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-  }
-  
-  .carousel-button {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    background-color: rgba(0, 0, 0, 0.5);
-    color: white;
-    border: none;
-    padding: 10px;
-    border-radius: 50%;
-    cursor: pointer;
-    z-index: 10;
-  }
-  
-  .carousel-button.left {
-    left: 10px;
-  }
-  
-  .carousel-button.right {
-    right: 10px;
-  }
-  
-  .carousel-button:hover {
-    background-color: rgba(0, 0, 0, 0.7);
-  }
-  
-  
+}
+
+/* Buttons */
+.carousel-button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 50%;
+  cursor: pointer;
+  z-index: 10;
+}
+
+.carousel-button.left {
+  left: 10px;
+}
+
+.carousel-button.right {
+  right: 10px;
+}
+
+.carousel-button:hover {
+  background-color: rgba(0, 0, 0, 0.7);
+}

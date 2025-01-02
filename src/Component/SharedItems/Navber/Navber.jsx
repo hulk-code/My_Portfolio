@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { FaFacebook, FaLinkedin, FaGithub, FaBars, FaTimes } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -66,19 +67,25 @@ const Navbar = () => {
         >
           {/* Close Button */}
           <div className="absolute top-4 right-4 cursor-pointer" onClick={toggleMenu}>
-            <FaTimes className="text-3xl hover:text-red-500" />
+            <FaTimes className="text-5xl  hover:text-red-500" />
           </div>
 
           {/* Navigation Links */}
-          <a href="/" className="mb-4 hover:text-blue-500" onClick={toggleMenu}>
-            Home
-          </a>
-          <a href="/contact" className="mb-4 hover:text-blue-500" onClick={toggleMenu}>
-            Contact
-          </a>
-          <a href="/about" className="hover:text-blue-500" onClick={toggleMenu}>
-            About
-          </a>
+          
+       
+      
+          <Link to="/" className="group relative inline-block mb-4" onClick={toggleMenu}>
+        <span className="relative z-10">Home</span>
+        <span className="absolute bottom-0 left-0 w-0 h-[2px] bg-yellow-700 transition-all duration-300 ease-in-out group-hover:w-full"></span>
+      </Link>
+      <Link to="/contact" className="group relative inline-block mb-4" onClick={toggleMenu}>
+        <span className="relative z-10">Contact</span>
+        <span className="absolute bottom-0 left-0 w-0 h-[2px] bg-yellow-700 transition-all duration-300 ease-in-out group-hover:w-full"></span>
+      </Link>
+      <Link to="/about" className="group relative inline-block mb-4" onClick={toggleMenu}>
+        <span className="relative z-10">About</span>
+        <span className="absolute bottom-0 left-0 w-0 h-[2px] bg-yellow-700 transition-all duration-300 ease-in-out group-hover:w-full"></span>
+      </Link>
         </div>
       )}
     </div>
