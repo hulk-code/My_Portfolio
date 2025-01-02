@@ -3,8 +3,19 @@ import { FaFacebook, FaLinkedin, FaGithub, FaBars, FaTimes } from "react-icons/f
 
 const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
+  const [isClosing, setIsClosing] = useState(false);
 
-  const toggleMenu = () => setMenuOpen(!menuOpen);
+  const toggleMenu = () => {
+    if (menuOpen) {
+      setIsClosing(true); // Start the closing animation
+      setTimeout(() => {
+        setMenuOpen(false); // After animation completes, close the menu
+        setIsClosing(false); // Reset the closing state
+      }, 1000); // Match the animation duration (1s)
+    } else {
+      setMenuOpen(true); // Open the menu
+    }
+  };
 
   return (
     <div className="relative">
@@ -31,7 +42,11 @@ const Navbar = () => {
 
       {/* Full-Page Overlay Menu */}
       {menuOpen && (
-        <div className="fixed inset-0 bg-gray-900 bg-opacity-95 flex flex-col justify-center items-center text-white text-2xl z-50">
+        <div
+          className={`fixed inset-0 bg-gray-900 bg-opacity-95 flex flex-col justify-center items-center text-white text-2xl z-50 ${
+            isClosing ? "animate-zoomOutUp" : "animate-zoomInRight"
+          }`}
+        >
           {/* Close Button */}
           <div className="absolute top-4 right-4 cursor-pointer" onClick={toggleMenu}>
             <FaTimes className="text-3xl hover:text-red-500" />
