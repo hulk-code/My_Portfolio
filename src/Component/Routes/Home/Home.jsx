@@ -4,6 +4,8 @@ import { Outlet } from 'react-router-dom';
 import Navber from '../../SharedItems/Navber/Navber';
 import Banner from '../Banner/Banner';
 import AboutMe from '../AboutMe/AboutMe';
+import Education from '../Education/Education';
+
 
 const Home = () => {
     return (
@@ -11,6 +13,7 @@ const Home = () => {
            <Navber></Navber>
            <Banner></Banner>
            <AboutMe></AboutMe>
+         
             <Outlet></Outlet>
         </div>
     );

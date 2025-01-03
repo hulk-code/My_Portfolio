@@ -2,6 +2,7 @@ import React, { useEffect } from "react";
 import { Avatar, Typography } from "@material-tailwind/react";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import Title from "../../SharedItems/Title/Title";
 
 const AboutMe = () => {
   useEffect(() => {
@@ -37,11 +38,11 @@ const AboutMe = () => {
         className="text-white lg:w-1/2"
         data-aos="fade-down"
       >
-        <h1 className="text-7xl font-bold text-blue-500 lg:ml-8">ABOUT ME</h1>
-        <p className="p-10 text-lg text-blue-gray-100 font-semibold">
+       <Title></Title>
+        <p className="lg:p-10 text-lg text-blue-gray-100 font-semibold w-full">
           I am the hardworking and mostly spearheaded person to secure a highly
-          rewarding position as a Full Stack
-          MERN(MongoDb,Express.js,React.js,Node.js) Developer, leveraging my
+          rewarding position as a Full Stack MERN(MongoDb,Express.js,React.js,Node.js) 
+          Developer, leveraging my
           profound expertise and passion for crafting robust and scalable web
           applications.
         </p>

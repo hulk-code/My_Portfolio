@@ -78,12 +78,12 @@ const Navbar = () => {
         <span className="relative z-10">Home</span>
         <span className="absolute bottom-0 left-0 w-0 h-[2px] bg-yellow-700 transition-all duration-300 ease-in-out group-hover:w-full"></span>
       </Link>
-      <Link to="/contact" className="group relative inline-block mb-4" onClick={toggleMenu}>
-        <span className="relative z-10">Contact</span>
-        <span className="absolute bottom-0 left-0 w-0 h-[2px] bg-yellow-700 transition-all duration-300 ease-in-out group-hover:w-full"></span>
-      </Link>
       <Link to="/aboutMe" className="group relative inline-block mb-4" onClick={toggleMenu}>
         <span className="relative z-10">About Me</span>
+        <span className="absolute bottom-0 left-0 w-0 h-[2px] bg-yellow-700 transition-all duration-300 ease-in-out group-hover:w-full"></span>
+      </Link>
+      <Link to="/education" className="group relative inline-block mb-4" onClick={toggleMenu}>
+        <span className="relative z-10">Education</span>
         <span className="absolute bottom-0 left-0 w-0 h-[2px] bg-yellow-700 transition-all duration-300 ease-in-out group-hover:w-full"></span>
       </Link>
         </div>
