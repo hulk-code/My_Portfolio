@@ -2,6 +2,7 @@ import React, { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { FaGraduationCap } from "react-icons/fa"; // FontAwesome Icon
+import { Typography } from "@material-tailwind/react";
 
 const Education = () => {
   useEffect(() => {
@@ -37,8 +38,8 @@ const Education = () => {
           <div className="flex justify-end w-1/2 pr-6" data-aos="fade-right">
             <div className=" p-4 rounded-lg text-white shadow-md">
               <h3 className="text-4xl text-blue-500 font-semibold p-2">High School</h3>
-              <p className="text-lg ">
-                Completed high school at XYZ School with a GPA of 4.8.
+              <p className="text-2xl ">
+                Completed high school at Safiuddin sarker academy and college.
               </p>
             </div>
           </div>
@@ -59,8 +60,8 @@ const Education = () => {
           <div className="flex justify-start w-1/2 pl-6" data-aos="fade-left">
             <div className="p-4 rounded-lg text-white shadow-md">
               <h3  className="text-4xl text-blue-500 font-semibold p-2">Bachelor's Degree</h3>
-              <p className="text-lg">
-                Earned a Bachelor's in Computer Science from ABC University.
+              <p className="text-2xl">
+                Earned a Bachelor's in Computer Science from Tejgaon college.
               </p>
             </div>
           </div>
@@ -70,9 +71,10 @@ const Education = () => {
         <div className="relative flex items-center mb-16">
           <div className="flex justify-end w-1/2 pr-6" data-aos="fade-right">
             <div className=" p-4 rounded-lg text-white shadow-md">
-              <h3 className="text-4xl text-blue-500 font-semibold p-2">Master's Degree</h3>
-              <p className="text-lg">
-                Pursuing a Master's in Computer Science from DEF University.
+              <h3 className="text-4xl text-blue-500 font-semibold p-2"> PH Hero Web Development Course</h3>
+              <p className="text-2xl">
+              Successfully completed an intensive full-stack web development
+              course, specializing in MERN stack development.
               </p>
             </div>
           </div>
@@ -93,11 +95,38 @@ const Education = () => {
           <div className="flex justify-start w-1/2 pl-6" data-aos="fade-left">
             <div className=" p-4 rounded-lg text-white shadow-md">
               <h3 className="text-4xl text-blue-500 font-semibold p-2">
-                PH Hero Web Development Course
+               MSC Candidate
               </h3>
               <p className="text-lg">
-                Successfully completed an intensive full-stack web development
-                course, specializing in MERN stack development.
+              <div className="flex animate-pulse flex-wrap items-center gap-8">
+      
+      <div className="w-max">
+        
+        
+        <Typography
+          as="div"
+          variant="paragraph"
+          className="mb-2 h-2 w-96 rounded-full bg-gray-300"
+        >
+          &nbsp;
+        </Typography>
+        <Typography
+          as="div"
+          variant="paragraph"
+          className="mb-2 h-2 w-80 rounded-full bg-gray-300"
+        >
+          &nbsp;
+        </Typography>
+        <Typography
+          as="div"
+          variant="paragraph"
+          className="mb-2 h-2 w-72 rounded-full bg-gray-300"
+        >
+          &nbsp;
+        </Typography>
+       
+      </div>
+    </div>
               </p>
             </div>
           </div>

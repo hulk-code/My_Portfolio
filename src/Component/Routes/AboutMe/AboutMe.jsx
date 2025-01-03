@@ -16,11 +16,11 @@ const AboutMe = () => {
         data-aos="fade-right"
       >
         <img
-          className="mx-auto"
+          className="mx-auto lg:mt-20 lg:mb-5"
           src="https://i.ibb.co.com/W6HwbJc/Akash-removebg-preview.png"
           alt=""
         />
-        <div className="text-center p-8">
+        <div className="text-center lg:mb-10 p-8">
           <a
             href="/src/assets/Mern stack resume of Akash Sarker.pdf"
             download="My_Resume.pdf"
