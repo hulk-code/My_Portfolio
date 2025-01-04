@@ -1,0 +1,72 @@
+[
+  {
+    "name": "HTML",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg"
+  },
+  {
+    "name": "CSS",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/d/d5/CSS3_logo_and_wordmark.svg"
+  },
+  {
+    "name": "JavaScript",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png"
+  },
+  {
+    "name": "React",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg"
+  },
+
+  {
+    "name": "Vue.js",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/9/95/Vue.js_Logo_2.svg"
+  },
+  {
+    "name": "Node.js",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Node.js_logo.svg"
+  },
+  {
+    "name": "Express.js",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/6/64/Expressjs.png"
+  },
+  {
+    "name": "MongoDB",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/9/93/MongoDB_Logo.svg"
+  },
+
+  {
+    "name": "Bootstrap",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/b/b2/Bootstrap_logo.svg"
+  },
+  {
+    "name": "Tailwind CSS",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/d/d5/Tailwind_CSS_Logo.svg"
+  },
+
+  {
+    "name": "Git",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Git-logo.svg"
+  },
+  {
+    "name": "Webpack",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/9/94/Webpack.svg"
+  },
+
+  {
+    "name": "TypeScript",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/4/4c/TypeScript_Logo.svg"
+  },
+  {
+    "name": "Firebase",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/3/37/Firebase_Logo.svg"
+  },
+  {
+    "name": "Figma",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/4/4e/Docker_logo.svg"
+  },
+  {
+    "name": "Material-UI",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/a/ab/Material-design.svg"
+  }
+
+  
+]

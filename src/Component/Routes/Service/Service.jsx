@@ -4,11 +4,18 @@ import "aos/dist/aos.css";
 
 const Service = () => {
   useEffect(() => {
-    AOS.init({ duration: 1000 }); 
+    AOS.init({ duration: 1000 });
   }, []);
 
   return (
-    <div className="bg-brown-800">
+    <div className="bg-brown-800 ">
+      
+      <div>
+      <h1 className="text-5xl md:text-7xl font-bold text-blue-500 text-center pt-10">
+        {" "}
+        PROFESSIONAL SKILLS
+      </h1>
+      </div>
       <div className="lg:flex justify-center items-center lg:h-screen lg:relative lg:w-[90%] mx-auto">
         {/* Left side div */}
         <div
