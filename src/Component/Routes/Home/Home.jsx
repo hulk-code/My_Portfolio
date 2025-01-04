@@ -5,6 +5,7 @@ import Navber from '../../SharedItems/Navber/Navber';
 import Banner from '../Banner/Banner';
 import AboutMe from '../AboutMe/AboutMe';
 import Education from '../Education/Education';
+import Service from '../Service/Service';
 
 
 const Home = () => {
@@ -14,6 +15,7 @@ const Home = () => {
            <Banner></Banner>
            <AboutMe></AboutMe>
          <Education></Education>
+         <Service></Service>
             <Outlet></Outlet>
         </div>
     );

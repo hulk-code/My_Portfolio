@@ -35,47 +35,53 @@ const AboutMe = () => {
         </div>
       </div>
       <div
-        className="text-white lg:w-1/2"
-        data-aos="fade-down"
-      >
-       <Title></Title>
-        <p className="lg:p-10 text-lg text-blue-gray-100 font-semibold w-full">
-          I am the hardworking and mostly spearheaded person to secure a highly
-          rewarding position as a Full Stack MERN(MongoDb,Express.js,React.js,Node.js) 
-          Developer, leveraging my
-          profound expertise and passion for crafting robust and scalable web
-          applications.
-        </p>
+  className="text-white w-full lg:w-1/2 px-4 lg:px-0"
+  data-aos="fade-down"
+>
+  <Title />
+  <p className="p-4 lg:p-10 text-base sm:text-lg text-blue-gray-100 font-semibold">
+    I am a hardworking and spearheaded individual aiming to secure a highly
+    rewarding position as a Full Stack MERN (MongoDB, Express.js, React.js,
+    Node.js) Developer, leveraging my profound expertise and passion for
+    crafting robust and scalable web applications.
+  </p>
 
-        <div className="flex items-center text-3xl gap-1 font-sans lg:ml-8">
-          <h1 className="text-4xl font-bold text-blue-500">Name:</h1>
-          <span>Akash Sarker</span>
-        </div>
-        <div className="flex items-center text-3xl gap-1 font-sans lg:ml-8">
-          <h1 className="text-4xl font-bold text-blue-500">Date of birth:</h1>
-          <span>15 JUNE 1997</span>
-        </div>
-        <div className="flex items-center text-3xl gap-1 font-sans lg:ml-8">
-          <h1 className="text-4xl font-bold text-blue-500">Nationality:</h1>
-          <span>Bangladeshi</span>
-        </div>
-        <div className="flex items-center text-3xl gap-1 font-sans lg:ml-8">
-          <h1 className="text-4xl font-bold text-blue-500">Address:</h1>
-          <span>Gazipur, Dhaka</span>
-        </div>
-        <div className="flex items-center text-3xl gap-1 font-sans lg:ml-8">
-          <h1 className="text-4xl font-bold text-blue-500">Phone:</h1>
-          <span>+8801984501095</span>
-        </div>
-        <div className="flex items-center text-3xl gap-1 font-sans lg:ml-8">
-          <h1 className="text-4xl font-bold text-blue-500">E-Mail:</h1>
-          <span>
-            <a href="mailto:akash.sarker.coder@gmail.com">
-              akash.sarker.coder@gmail.com
-            </a>
-          </span>
-        </div>
-      </div>
+  <div className="space-y-4">
+    <div className="flex flex-wrap items-center text-lg sm:text-2xl gap-1 font-sans">
+      <h1 className="text-xl sm:text-3xl font-bold text-blue-500">Name:</h1>
+      <span>Akash Sarker</span>
+    </div>
+    <div className="flex flex-wrap items-center text-lg sm:text-2xl gap-1 font-sans">
+      <h1 className="text-xl sm:text-3xl font-bold text-blue-500">
+        Date of Birth:
+      </h1>
+      <span>15 JUNE 1997</span>
+    </div>
+    <div className="flex flex-wrap items-center text-lg sm:text-2xl gap-1 font-sans">
+      <h1 className="text-xl sm:text-3xl font-bold text-blue-500">
+        Nationality:
+      </h1>
+      <span>Bangladeshi</span>
+    </div>
+    <div className="flex flex-wrap items-center text-lg sm:text-2xl gap-1 font-sans">
+      <h1 className="text-xl sm:text-3xl font-bold text-blue-500">Address:</h1>
+      <span>Gazipur, Dhaka</span>
+    </div>
+    <div className="flex flex-wrap items-center text-lg sm:text-2xl gap-1 font-sans">
+      <h1 className="text-xl sm:text-3xl font-bold text-blue-500">Phone:</h1>
+      <span>+8801984501095</span>
+    </div>
+    <div className="flex flex-wrap items-center text-lg sm:text-2xl gap-1 font-sans">
+      <h1 className="text-xl sm:text-3xl font-bold text-blue-500">E-Mail:</h1>
+      <span>
+        <a href="mailto:akash.sarker.coder@gmail.com" className="underline">
+          akash.sarker.coder@gmail.com
+        </a>
+      </span>
+    </div>
+  </div>
+</div>
+
     </div>
   );
 };

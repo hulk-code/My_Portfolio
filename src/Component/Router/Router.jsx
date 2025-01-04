@@ -4,6 +4,7 @@ import ErrorPage from "../Routes/ErrorPage/ErrorPage";
 
 import Education from "../Routes/Education/Education";
 import AboutMe from "../Routes/AboutMe/AboutMe";
+import Service from "../Routes/Service/Service";
 
 const router = createBrowserRouter([
   {
@@ -21,6 +22,10 @@ const router = createBrowserRouter([
   {
     path: "/education",
     element:<Education></Education> ,
+  },
+  {
+    path: "/service",
+    element:<Service></Service> ,
   },
   
 ]);
