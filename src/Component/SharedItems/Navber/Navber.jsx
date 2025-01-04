@@ -99,7 +99,9 @@ const Navbar = () => {
             onClick={toggleMenu}
           >
             <span className="relative z-10">Home</span>
-            <span className="absolute bottom-0 left-0 w-0 h-[2px] bg-yellow-700 transition-all duration-300 ease-in-out group-hover:w-full"></span>
+            <span className="absolute bottom-0 left-0 w-0 h-[2px] bg-yellow-700 transition-all 
+            duration-300 ease-in-out group-hover:w-full"></span>
+            
           </Link>
           <Link
             to="/aboutMe"
