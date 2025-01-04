@@ -5,6 +5,7 @@ import {
   FaGithub,
   FaBars,
   FaTimes,
+  FaMailBulk,
 } from "react-icons/fa";
 import { Link } from "react-router-dom";
 
@@ -26,7 +27,6 @@ const Navbar = () => {
 
   return (
     <div className=" ">
-      
       <nav className=" w-2/3 mx-auto  fixed top-0 left-0 right-0 flex justify-between items-center p-4 z-50">
         {/* Left Side: Social Icons */}
         <div className="flex space-x-4 ">
@@ -50,6 +50,15 @@ const Navbar = () => {
             rel="noopener noreferrer"
           >
             <FaGithub className="text-4xl text-white hover:text-gray-400" />
+          </a>
+          <a
+            href="mailto:akash.sarker.coder@gmail.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center text-white hover:text-gray-400"
+          >
+            <FaMailBulk className="text-4xl mr-2" />
+           
           </a>
         </div>
 
@@ -99,9 +108,10 @@ const Navbar = () => {
             onClick={toggleMenu}
           >
             <span className="relative z-10">Home</span>
-            <span className="absolute bottom-0 left-0 w-0 h-[2px] bg-yellow-700 transition-all 
-            duration-300 ease-in-out group-hover:w-full"></span>
-            
+            <span
+              className="absolute bottom-0 left-0 w-0 h-[2px] bg-yellow-700 transition-all 
+            duration-300 ease-in-out group-hover:w-full"
+            ></span>
           </Link>
           <Link
             to="/aboutMe"
