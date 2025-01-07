@@ -8,6 +8,7 @@ import Education from '../Education/Education';
 import Service from '../Service/Service';
 import Skills from '../Skills/Skills';
 import Projects from '../Projects/Projects';
+import Footer from '../Footer/Footer';
 
 
 const Home = () => {
@@ -20,6 +21,7 @@ const Home = () => {
          <Service></Service>
          <Skills></Skills>
          <Projects></Projects>
+         <Footer></Footer>
             <Outlet></Outlet>
         </div>
     );

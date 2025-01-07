@@ -58,7 +58,7 @@ const Navbar = () => {
             className="flex items-center text-white hover:text-gray-400"
           >
             <FaMailBulk className="text-4xl mr-2" />
-           
+          
           </a>
         </div>
 
@@ -127,6 +127,14 @@ const Navbar = () => {
             onClick={toggleMenu}
           >
             <span className="relative z-10">Education</span>
+            <span className="absolute bottom-0 left-0 w-0 h-[2px] bg-yellow-700 transition-all duration-300 ease-in-out group-hover:w-full"></span>
+          </Link>
+          <Link
+            to="/projects"
+            className="group relative inline-block mb-4"
+            onClick={toggleMenu}
+          >
+            <span className="relative z-10">MY Projects</span>
             <span className="absolute bottom-0 left-0 w-0 h-[2px] bg-yellow-700 transition-all duration-300 ease-in-out group-hover:w-full"></span>
           </Link>
         </div>
