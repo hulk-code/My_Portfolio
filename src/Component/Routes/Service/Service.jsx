@@ -54,7 +54,7 @@ const Service = () => {
         {/* Right side div */}
         <div
           className="bg-brown-400 lg:w-[450px] lg:h-[450px] lg:relative transform translate-x-[-5px]"
-          data-aos="fade-left"
+          data-aos="fade-up"
         >
           <h3 className="text-5xl font-bold pt-10 pl-10">02.</h3>
           <p className="text-4xl pl-10 pt-5 font-semibold text-cyan-700">
