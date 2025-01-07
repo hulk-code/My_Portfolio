@@ -39,7 +39,11 @@ const Footer = () => {
     <footer className="footer">
       {/* Left Section */}
       <div className="footer-left">
-        <img src="/public/logo.png" alt="Logo" className="footer-logo" />
+        <img
+          src="https://i.ibb.co.com/4JDv05Z/logo.png"
+          alt="Logo"
+          className="footer-logo"
+        />
         <h2 className="text-3xl text-bold">Contact With Me</h2>
         <p className="text-xl">
           <strong>Name:</strong> Akash Sarker
@@ -79,7 +83,9 @@ const Footer = () => {
             onChange={handleChange}
             required
           />
-           <Button type="submit" color="amber">Send</Button>
+          <Button type="submit" color="amber">
+            Send
+          </Button>
           {/* <button type="submit" className="form-button btn-ghost">
             Send
           </button> */}
