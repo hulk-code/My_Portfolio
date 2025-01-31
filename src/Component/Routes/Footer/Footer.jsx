@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import emailjs from "emailjs-com";
 import "./Footer.css";
 import { Button } from "@material-tailwind/react";
+import resume from "../../../../public/assets/Mern stack resume of Akash Sarker.pdf";
 const Footer = () => {
   const [formData, setFormData] = useState({ name: "", message: "" });
   const [status, setStatus] = useState("");
@@ -54,9 +55,15 @@ const Footer = () => {
         <p>
           <strong>Email:</strong> akash.sarker.coder@gmail.com
         </p>
+        <button className="btn bg-blue-900 text-blue-300 px-5 py-3 rounded ">
+          {" "}
+          <a href={resume} download>
+            Download Resume
+          </a>
+        </button>
         <a
-          href="/src/assets/Mern stack resume of Akash Sarker.pdf"
-          download
+          href="/assets/Mern stack resume of Akash Sarker.pdf"
+          download="Mern stack resume of Akash Sarker.pdf"
           className="resume-btn"
         >
           Download Resume

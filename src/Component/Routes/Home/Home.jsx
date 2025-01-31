@@ -9,6 +9,7 @@ import Service from '../Service/Service';
 import Skills from '../Skills/Skills';
 import Projects from '../Projects/Projects';
 import Footer from '../Footer/Footer';
+import DesignSkills from '../DesignSkills/DesignSkills';
 
 
 const Home = () => {
@@ -20,6 +21,7 @@ const Home = () => {
          <Education></Education>
          <Service></Service>
          <Skills></Skills>
+         <DesignSkills></DesignSkills>
          <Projects></Projects>
          <Footer></Footer>
             <Outlet></Outlet>

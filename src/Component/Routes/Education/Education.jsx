@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import { FaGraduationCap } from "react-icons/fa"; // FontAwesome Icon
+import { FaGraduationCap } from "react-icons/fa";
 import { Typography } from "@material-tailwind/react";
 
 const Education = () => {
@@ -18,13 +18,13 @@ const Education = () => {
         EDUCATION
       </h1>
       <div className="relative container mx-auto">
-        {/* Middle Line - Hidden for small devices */}
+        
         <div
           className="absolute inset-0 w-1 bg-blue-500 left-1/2 transform -translate-x-1/2 hidden md:block"
           data-aos="fade-down"
         ></div>
 
-        {/* Step 0: Education Types Icon */}
+    
         <div className="relative flex items-center mb-16">
           <div className="flex justify-center w-full" data-aos="zoom-in">
             <div className="w-12 h-12 sm:w-16 sm:h-16 bg-blue-500 rounded-full border-4 border-white flex items-center justify-center shadow-lg">
@@ -33,7 +33,7 @@ const Education = () => {
           </div>
         </div>
 
-        {/* Step 1: High School */}
+        
         <div className="relative flex flex-col md:flex-row items-center mb-20">
           <div
             className="flex justify-end md:w-1/2 md:pr-6 w-full text-center md:text-right"
@@ -55,7 +55,7 @@ const Education = () => {
           <div className="md:w-1/2 md:pl-6"></div>
         </div>
 
-        {/* Step 2: Bachelor's Degree */}
+       
         <div className="relative flex flex-col md:flex-row items-center mb-16">
           <div className="md:w-1/2 md:pr-6"></div>
           <div
@@ -77,7 +77,7 @@ const Education = () => {
           </div>
         </div>
 
-        {/* Step 3: Web Development Course */}
+      
         <div className="relative flex flex-col md:flex-row items-center mb-16">
           <div
             className="flex justify-end md:w-1/2 md:pr-6 w-full text-center md:text-right"
@@ -100,7 +100,7 @@ const Education = () => {
           <div className="md:w-1/2 md:pl-6"></div>
         </div>
 
-        {/* Step 4: MSC Candidate */}
+    
         <div className="relative flex flex-col md:flex-row items-center mb-16">
           <div className="md:w-1/2 md:pr-6"></div>
           <div
