@@ -10,6 +10,7 @@ import Skills from '../Skills/Skills';
 import Projects from '../Projects/Projects';
 import Footer from '../Footer/Footer';
 import DesignSkills from '../DesignSkills/DesignSkills';
+import Design from '../Design/Design';
 
 
 const Home = () => {
@@ -23,6 +24,7 @@ const Home = () => {
          <Skills></Skills>
          <DesignSkills></DesignSkills>
          <Projects></Projects>
+         <Design></Design>
          <Footer></Footer>
             <Outlet></Outlet>
         </div>

@@ -61,13 +61,13 @@ const Footer = () => {
             Download Resume
           </a>
         </button>
-        <a
+        {/* <a
           href="/assets/Mern stack resume of Akash Sarker.pdf"
           download="Mern stack resume of Akash Sarker.pdf"
           className="resume-btn"
         >
           Download Resume
-        </a>
+        </a> */}
       </div>
 
       {/* Right Section */}

@@ -11,7 +11,7 @@ const Service = () => {
     <div className="bg-brown-800 ">
       
       <div>
-      <h1 className="text-5xl md:text-7xl font-bold text-blue-500 text-center pt-10">
+      <h1 className="text-2xl lg:text-5xl md:text-7xl font-bold text-blue-500 text-center pt-10">
         {" "}
         PROFESSIONAL SKILLS
       </h1>
