@@ -11,11 +11,12 @@ import Projects from '../Projects/Projects';
 import Footer from '../Footer/Footer';
 import DesignSkills from '../DesignSkills/DesignSkills';
 import Design from '../Design/Design';
+import ArtGallery from '../ArtGalery/ArtGalery';
 
 
 const Home = () => {
     return (
-        <div>
+        <div className=''>
            <Navber></Navber>
            <Banner></Banner>
            <AboutMe></AboutMe>
@@ -25,6 +26,7 @@ const Home = () => {
          <DesignSkills></DesignSkills>
          <Projects></Projects>
          <Design></Design>
+         <ArtGallery></ArtGallery>
          <Footer></Footer>
             <Outlet></Outlet>
         </div>
