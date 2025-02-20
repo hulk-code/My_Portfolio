@@ -21,9 +21,9 @@ I specialize in **MERN stack development**, with strong proficiency in **MongoDB
 ## 🚀 Section 3: Work Experience & Projects
 Although I do not have formal job experience yet, I have worked on various **personal and academic projects** that showcase my skills. Some notable projects include:
 
-🎯  – A web application built with React and Node.js for *[brief description]*.  
-🎯  – A full-stack **e-commerce platform** using the **MERN stack**.  
-🎯  – A **graphics design portfolio** showcasing **creative works and digital illustrations**.  
+🎯 **[Mobile Phone Shop]** – A web application built with React and Node.js.  
+🎯 **[Fitness House]**  – A full-stack **Online Gym Services Boking And Showcasing their Gym** using the **MERN stack**.  
+🎯 **[Designs/Logo for Websites]** – A **graphics design ArtWork** showcasing **creative works and digital illustrations**.  
 
 ---
 
